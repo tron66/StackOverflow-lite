@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Question</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/profile.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css" />
+    <script src="profile.js"></script>
+</head>
+<body>
+        <header>
+                <nav>
+                    <ul class="nav">
+                    <li><input name="search" class="searchbar" type="text" placeholder="Search"/></li>
+                    <li><a href="question_list.html">Questions</a></li>
+                    <li><a href="question.html">Ask a question</a></li>
+                    <li><a href="answer.html">Answers</a></li>
+                    </ul>
+                    <a href="index.html" class="hm">Home</a>
+                </nav>
+    <div>
+        <div><img class="img" src="images/profile.jpg" alt=""></div>
+        <div><h1>User</h1></div>
+        <div class="tab">
+            <button class="link" onclick="summary(event,'Summary')">Summary</button> 
+            <button class="link" onclick="summary(event,'Questions')">Questions</button>
+            <button class="link" onclick="summary(event,'Answers')">Answers</button>
+            <button class="link" onclick="summary(event,'Votes')">Votes</button>
+            <button class="link" onclick="summary(event,'Comment')">Comment</button>
+        </div>
+        <div id="Summary" class="content">
+            <h2>Summary</h2>
+            <h4>Questions(1)</h4>
+            <p>You only have one question</p>
+            <h4>Answers(2)</h4>
+            <p>You have two answers</p>
+        </div>
+        <div id="Questions" class="content">
+            <h2>Questions</h2>
+            <h4>Questions(1)</h4>
+            <p>Whats an API</p>
+            <button class="Delete">Delete</button>
+        </div>
+        <div id="Answers" class="content">
+            <h2>Answers</h2>
+            <h4>Answers(2)</h4>
+            <p>1.API in full is Application Programming Interface</p><button class="Accept">Accept</button>
+            <p>2.They are used for access</p><button class="Accept">Accept</button>
+        </div>
+        <div id="Votes" class="content">
+            <h2>Votes</h2>
+            <h4>Votes(3)</h4>
+            <p>You have 3 votes</p>
+        </div>
+        <div id="Comment" class="content">
+                <h2>Comment</h2>
+                <p>Correct</p>
+            </div>
+    </div>
+</body>
+</html>

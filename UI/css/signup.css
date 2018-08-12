@@ -1,0 +1,44 @@
+.hd{
+    float: right;
+    padding: 0 12px;
+    font-size: 16px;
+}
+.login{
+    margin: auto;
+    width: 360px;
+    padding: 200px;
+}
+.form{
+    background: grey;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto 100px;
+}
+.form input{
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+button{
+    background: blue;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    outline: 0;
+}
+button :hover,button:active{
+    background: grey;
+}
+label{
+    float: left;
+    padding-bottom: 10px;
+}
