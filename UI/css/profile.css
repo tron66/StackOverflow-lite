@@ -1,0 +1,42 @@
+.img{
+    width: 300px;
+    margin-top: 60px;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    cursor: pointer;
+    padding: 14px 16px;
+    border: 0;
+    outline: 0;
+}
+.tab button:hover,button:active {
+    background-color:grey;
+}
+.content {
+    display: none;
+    padding: 20px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #f2f2f2;
+}
+.hm{
+    float: right;
+    font-size: 30px;
+}
+.Delete,.Accept{
+    background: red;
+    color: white;
+    border: 0;
+    margin: 0;
+    padding: 5px 5px;
+    width: 120px;
+}
+.Accept{
+    background: green;
+}
